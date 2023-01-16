@@ -1,0 +1,86 @@
+private def makeSafeName(String branchName){
+  return branchName.replaceAll("[^a-zA-Z0-9]","-").toLowerCase()
+}
+
+def full_version_tag = null
+
+pipeline {
+
+    environment {
+        BUILD_NUMBER = "${env.BUILD_NUMBER}"
+        BRANCH_NAME = "${env.BRANCH_NAME}"
+        DOTMATICS_HELM_REGISTRY = "${env.DOTMATICS_HELM_REGISTRY}"
+    }
+
+    agent any 
+    
+    parameters {
+        string(name: 'REF', defaultValue: '', description: 'The git ref that should be built')
+        string(name: 'VERSION', defaultValue: '', description: 'The version number that should be used')
+        string(name: 'APPEND_BUILD_NUMBER', defaultValue: '1', description: 'Should the build number be appended? ')
+    }
+
+    stages {
+        stage('Download Source') {
+            steps {
+                script {
+                    // Make directoy to hold rollup
+                    sh 'mkdir -p release'
+
+                    echo "Obtaining Branch = ${params.REF}" 
+
+                    dir('release') {
+                        checkout([
+                            $class: 'GitSCM', 
+                            branches: [[name: params.REF]], 
+                            userRemoteConfigs: [[credentialsId: 'github-pat-dotmatics-ci-user', url: 'https://github.com/Dotmatics/zebra-sdlc-rollups']]
+                        ])
+                    }
+
+                }
+            }
+        }
+        stage('Establish Version') {
+            steps {
+                script {
+                    full_version_tag = params.VERSION
+
+                    if (params.APPEND_BUILD_NUMBER == "1")
+                    {
+                        full_version_tag = "${full_version_tag}-${env.BUILD_NUMBER}"
+                    }
+
+                    echo "Full version tag is = ${full_version_tag}"
+                }
+            }
+        }
+        stage('Package') {
+            when {
+                expression {
+                    return full_version_tag?.trim()
+                }
+            }
+            steps {
+                script {
+                    writeFile(file:'Build/version.txt', text: full_version_tag)
+
+                    dir ('./Build/Scripts') {
+                        withCredentials([string(credentialsId: 'jfrog-access-token', variable: 'JFROG_TOKEN')]) {
+                            sh "./s1-helm.sh ${full_version_tag}"
+                        }
+                    }
+                }
+            }
+        }
+    }
+    post {
+        always {
+            script {
+              if (full_version_tag?.trim()) {
+                archiveArtifacts artifacts: 'Build/*.txt', onlyIfSuccessful: true
+              }
+              cleanWs()
+            }
+        }
+    }
+}

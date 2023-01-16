@@ -1,0 +1,6 @@
+# global values - see https://dotmatics.atlassian.net/l/c/Dr0PYcRH
+global:
+  containerRegistry: ""
+  imagePullSecret: ""
+  ingressHostName: ""
+  ingressClassName: ""

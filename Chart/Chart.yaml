@@ -1,0 +1,65 @@
+apiVersion: v2
+name: zebra-sdlc-rollup
+version: __VERSION__
+description: A fixed release of all zebra services
+maintainers:
+- name: Andi Hyson
+  email: andi.hyson@dotmatics.com
+dependencies:
+- name: zebra-fe-nav
+  version: 0.3.0-32
+  repository: '@helm-virtual'
+- name: zebra-fe-profile
+  version: 0.6.0-27
+  repository: '@helm-virtual'
+- name: zebra-fe-store
+  version: 0.2.8-18
+  repository: '@helm-virtual'
+- name: zebra-fe-shell
+  version: 0.3.0-45
+  repository: '@helm-virtual'
+- name: zebra-poc-ingress-context
+  version: 0.4.1-12
+  repository: '@helm-virtual'
+- name: zebra-poc-tenant-sign-up
+  version: 0.1.1-4
+  repository: '@helm-virtual'
+- name: zebra-svc-module
+  version: 0.7.0-12
+  repository: '@helm-virtual'
+- name: zebra-svc-widget-registry
+  version: 0.3.0-3
+  repository: '@helm-virtual'
+- name: zebra-svc-tenant
+  version: 0.1.2-36
+  repository: '@helm-virtual'
+- name: zebra-fe-module-system-settings
+  version: 0.3.3-24
+  repository: '@helm-virtual'
+- name: zebra-keycloak
+  version: 0.1.4-13
+  repository: '@helm-virtual'
+- name: zebra-openpolicyagent
+  version: 0.1.4-3
+  repository: '@helm-virtual'
+- name: zebra-svc-system-settings
+  version: 0.1.8-16
+  repository: '@helm-virtual'
+- name: zebra-fe-module-user-settings
+  version: 0.0.1-9
+  repository: '@helm-virtual'
+- name: sciplat-fe-content
+  version: 0.3.10-feature-demo-dec22-7
+  repository: '@helm-virtual'
+- name: sciplat-svc-content
+  version: 1.1.3-103
+  repository: '@helm-virtual'
+- name: sciplat-svc-user
+  version: 0.0.2-8
+  repository: '@helm-virtual'
+- name: sciplat-svc-audit
+  version: 0.0.2-13
+  repository: '@helm-virtual'
+- name: zebra-sdlc-speedrun-module-5
+  version: 2.11.0-27
+  repository: '@helm-virtual'
