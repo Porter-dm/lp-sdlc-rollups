@@ -1,5 +1,5 @@
 apiVersion: v2
-name: zebra-release
+name: zebra-sdlc-rollup
 version: __VERSION__
 description: A fixed release of all zebra services
 maintainers:
