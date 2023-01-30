@@ -57,6 +57,3 @@ dependencies:
 - name: sciplat-svc-audit
   version: 0.0.2-13
   repository: '@helm-virtual'
-- name: plotly-poc-fe
-  version: 0.1.0-1
-  repository: '@helm-virtual'
