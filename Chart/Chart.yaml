@@ -58,5 +58,5 @@ dependencies:
   version: 0.0.2-13
   repository: '@helm-virtual'
 - name: zebra-sdlc-speedrun-module-5
-  version: 2.11.0-29
+  version: 2.11.0-30
   repository: '@helm-virtual'
