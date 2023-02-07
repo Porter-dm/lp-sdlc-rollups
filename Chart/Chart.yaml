@@ -21,8 +21,8 @@ dependencies:
 - name: zebra-poc-tenant-sign-up
   version: 0.1.2-6
   repository: '@helm-virtual'
-- name: zebra-svc-module
-  version: 0.7.0-12
+- name: sciplat-svc-module
+  version: 0.0.1-41
   repository: '@helm-virtual'
 - name: zebra-svc-widget-registry
   version: 0.3.1-6
