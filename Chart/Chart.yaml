@@ -43,7 +43,7 @@ dependencies:
   version: 0.1.9-20
   repository: '@helm-virtual'
 - name: zebra-fe-module-user-settings
-  version: 0.0.1-13
+  version: 0.0.1-14
   repository: '@helm-virtual'
 - name: datacore-svc-backend
   version: 0.1.0-110
