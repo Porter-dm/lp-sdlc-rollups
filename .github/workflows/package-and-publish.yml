@@ -10,6 +10,8 @@ jobs:
     steps:
       - name: Setting up helm repository
         run: | 
-          helm repo add helm-virtual https://dtxlabs.jfrog.io/artifactory/api/helm/helm-virtual 
-      - name: Updating helm repository index
-        run: helm repo update
+          helm repo add helm-virtual https://dtxlabs.jfrog.io/artifactory/api/helm/helm-virtual \
+          --username ci-user-github-helm-write --password ${{ secrets.JFROG_HELM_TOKEN }}
+      - name: Running Helm Package and Publish Script
+        run: ./.github/scripts/helm.sh
+        shell: bash
