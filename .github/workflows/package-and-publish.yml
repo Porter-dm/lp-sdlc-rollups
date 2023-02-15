@@ -16,3 +16,5 @@ jobs:
       - name: Running Helm Package and Publish Script
         run: ./.github/scripts/helm.sh
         shell: bash
+        with:
+          SOME_MESSAGE: "Welcome to the file"
