@@ -1,0 +1,16 @@
+name: Package and Publish Helm Chart
+run-name: ${{ github.actor }} invoked publication 🚀
+on: 
+    push:
+      tags:
+        - '*'
+jobs:
+  Package-Publish-Chart:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Setting up helm repository
+        run: | 
+          helm repo add helm-virtual https://dtxlabs.jfrog.io/artifactory/api/helm/helm-virtual \
+          --username ci-user-github-helm-write --password ${{ secrets.JFROG_HELM_TOKEN }}
+      - name: Updating helm repository index
+        run: helm repo update
