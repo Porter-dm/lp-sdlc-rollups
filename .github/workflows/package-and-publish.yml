@@ -30,6 +30,7 @@ jobs:
           api_key: ${{ secrets.OCTOPUS_API_KEY }}
           space: 'Default'
           project: 'DataGalaxy'
+          git_ref: ${{ github.ref }}
           release_number: ${{ github.ref_name }}
           package_version: ${{ github.ref_name }}
       
