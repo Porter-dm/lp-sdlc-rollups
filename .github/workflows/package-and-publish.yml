@@ -23,4 +23,13 @@ jobs:
       - name: Publishing Helm Chart
         run: |
             jf rt u zebra-sdlc-rollup-${{ github.ref_name }}.tgz zebra-releases
+      - name: Create a release in Octopus Deploy 🐙
+        uses: OctopusDeploy/create-release-action@v3
+        with:
+          server: ${{ secrets.OCTOPUS_SERVER }}
+          api_key: ${{ secrets.OCTOPUS_API_KEY }}
+          space: 'Default'
+          project: 'DataGalaxy'
+          release_number: ${{ github.ref_name }}
+          package_version: ${{ github.ref_name }}
       
