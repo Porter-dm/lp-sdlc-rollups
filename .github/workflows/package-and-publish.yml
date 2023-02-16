@@ -11,7 +11,7 @@ jobs:
       - uses: actions/checkout@v2
       - name: Setting up helm repository
         run: | 
-          echo ${{ secrets.JFROG_HELM_READ }} | helm repo add repo-name https://dtxlabs.jfrog.io/artifactory/api/helm/helm-virtual \
+          echo ${{ secrets.JFROG_HELM_READ }} | helm repo add helm-virtual https://dtxlabs.jfrog.io/artifactory/api/helm/helm-virtual \
             --username ci-users-github-helm-read --password-stdin
       - name: Package Helm Chart
         run: ./.github/scripts/helm.sh ${{ github.ref_name }} 
