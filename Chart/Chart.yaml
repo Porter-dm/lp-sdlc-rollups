@@ -28,7 +28,7 @@ dependencies:
   version: 0.3.1-6
   repository: '@helm-virtual'
 - name: zebra-svc-tenant
-  version: 0.1.2-40
+  version: 0.1.5-43
   repository: '@helm-virtual'
 - name: zebra-fe-module-system-settings
   version: 0.3.4-31
