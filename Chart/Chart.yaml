@@ -31,7 +31,7 @@ dependencies:
   version: 0.1.2-40
   repository: '@helm-virtual'
 - name: zebra-fe-module-system-settings
-  version: 0.3.4-30
+  version: 0.3.4-31
   repository: '@helm-virtual'
 - name: zebra-keycloak
   version: 0.1.7-28
