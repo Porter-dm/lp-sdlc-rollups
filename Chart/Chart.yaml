@@ -63,3 +63,6 @@ dependencies:
 - name: zebra-svc-eln-layout
   version: 0.2.2-13
   repository: '@helm-virtual'
+- name: sciplat-svc-api-key
+  version: 0.0.1-2
+  repository: '@helm-virtual'
