@@ -45,9 +45,6 @@ dependencies:
 - name: zebra-fe-module-user-settings
   version: 0.0.1-14
   repository: '@helm-virtual'
-- name: datacore-svc-backend
-  version: 0.1.0-110
-  repository: '@helm-virtual'
 - name: sciplat-fe-content
   version: 0.3.10-58
   repository: '@helm-virtual'
