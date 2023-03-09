@@ -63,3 +63,6 @@ dependencies:
 - name: sciplat-svc-api-key
   version: 0.0.1-2
   repository: '@helm-virtual'
+- name: datacore-svc-backend
+  version: 0.1.0-179
+  repository: '@helm-virtual'
