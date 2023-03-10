@@ -64,5 +64,5 @@ dependencies:
   version: 0.0.1-2
   repository: '@helm-virtual'
 - name: datacore-svc-backend
-  version: 0.1.0-bugfix-graphql-endpoint-fix-2
+  version: 0.1.0-182
   repository: '@helm-virtual'
