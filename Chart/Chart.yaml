@@ -43,7 +43,7 @@ dependencies:
   version: 0.0.1-17
   repository: '@helm-virtual'
 - name: datacore-svc-backend
-  version: 0.1.0-185
+  version: 0.1.0-186
   repository: '@helm-virtual'
 - name: sciplat-fe-content
   version: 0.3.10-58
