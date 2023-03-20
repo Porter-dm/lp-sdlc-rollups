@@ -31,7 +31,7 @@ dependencies:
   version: 0.3.4-34
   repository: '@helm-virtual'
 - name: zebra-keycloak
-  version: 0.1.7-28
+  version: 0.1.7-29
   repository: '@helm-virtual'
 - name: zebra-openpolicyagent
   version: 0.1.11-5
