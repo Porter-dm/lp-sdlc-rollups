@@ -46,7 +46,7 @@ dependencies:
   version: 0.1.0-197
   repository: '@helm-virtual'
 - name: sciplat-svc-user
-  version: 0.0.5-19
+  version: 0.0.5-20
   repository: '@helm-virtual'
 - name: sciplat-svc-audit
   version: 0.0.3-16
