@@ -43,7 +43,7 @@ dependencies:
   version: 0.0.1-19
   repository: '@helm-virtual'
 - name: datacore-svc-backend
-  version: 0.1.0-239
+  version: 0.1.0-first-bb-e2e-demo-2
   repository: '@helm-virtual'
 - name: sciplat-svc-user
   version: 0.0.6-25
@@ -55,7 +55,7 @@ dependencies:
   version: 0.2.2-13
   repository: '@helm-virtual'
 - name: sciplat-svc-api-key
-  version: 0.0.1-4
+  version: 0.0.1-feature-sp-1225-1
   repository: '@helm-virtual'
 - name: sciplat-svc-realm-manager
   version: 0.0.3-4
