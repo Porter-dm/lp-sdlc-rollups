@@ -13,7 +13,7 @@ jobs:
         env: 
           JFROG_TOKEN: ${{ secrets.JFROG_HELM_READ }}
         run: | 
-          echo "JFROG_TOKEN" | helm repo add helm-virtual https://dtxlabs.jfrog.io/artifactory/api/helm/helm-virtual \
+          echo "$JFROG_TOKEN" | helm repo add helm-virtual https://dtxlabs.jfrog.io/artifactory/api/helm/helm-virtual \
             --username ci-users-github-helm-read --password-stdin
 
       - name: Package Helm Chart
