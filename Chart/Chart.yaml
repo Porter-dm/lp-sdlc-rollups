@@ -61,5 +61,5 @@ dependencies:
   version: 0.0.3-8
   repository: '@helm-virtual'
 - name: sciplat-svc-authz
-  version: 0.0.1-6
+  version: 0.0.1-7
   repository: '@helm-virtual'
