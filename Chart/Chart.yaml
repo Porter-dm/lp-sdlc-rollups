@@ -22,7 +22,7 @@ dependencies:
   version: 0.1.2-6
   repository: '@helm-virtual'
 - name: sciplat-svc-module
-  version: 0.0.4-44
+  version: 0.0.5-45
   repository: '@helm-virtual'
 - name: zebra-svc-tenant
   version: 0.1.5-53
