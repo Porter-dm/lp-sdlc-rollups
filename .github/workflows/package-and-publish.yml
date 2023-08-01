@@ -14,7 +14,7 @@ jobs:
           JFROG_TOKEN: ${{ secrets.DATAGALAXY_GHA_ZEBRARELEASES_READ }}
         run: | 
           echo "$JFROG_TOKEN" | helm repo add helm-virtual https://dtxlabs.jfrog.io/artifactory/api/helm/helm-virtual \
-            --username ci-users-github-helm-read --password-stdin
+            --username gha_zebrareleases_read --password-stdin
 
       - name: Package Helm Chart
         env:
