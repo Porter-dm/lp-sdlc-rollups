@@ -11,10 +11,10 @@ jobs:
       - uses: actions/checkout@v2
       - name: Setting up helm repository
         env: 
-          JFROG_TOKEN: ${{ secrets.DATAGALAXY_GHA_ZEBRARELEASES_READ }}
+          JFROG_TOKEN: ${{ secrets.DATAGALAXY_GHA_HELM_READ }}
         run: | 
           echo "$JFROG_TOKEN" | helm repo add helm-virtual https://dtxlabs.jfrog.io/artifactory/api/helm/helm-virtual \
-            --username gha_zebrareleases_read --password-stdin
+            --username gha_helm_read --password-stdin
 
       - name: Package Helm Chart
         env:
