@@ -16,7 +16,7 @@ dependencies:
     version: 0.3.1-7-3
     repository: '@helm-virtual'
   - name: sciplat-svc-ingress-context
-    version: 0.0.8-37
+    version: 0.0.8-6-2
     repository: '@helm-virtual'
   - name: zebra-poc-tenant-sign-up
     version: 0.1.2-4-2
