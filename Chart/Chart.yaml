@@ -58,7 +58,7 @@ dependencies:
     version: 0.0.1-19-1
     repository: '@helm-virtual'
   - name: sciplat-svc-realm-manager
-    version: 0.0.4-117-1
+    version: 0.0.5-124-1
     repository: '@helm-virtual'
   - name: sciplat-svc-authz
     version: 0.0.4-145-1
