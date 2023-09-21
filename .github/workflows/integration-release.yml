@@ -5,7 +5,7 @@ on:
     branches:
       - main
     tags-ignore:
-      - **
+      - '**'
 env:
   OCTOPUS_SPACE: "Luma Platform"
   OCTOPUS_PROJECT: "Luma Platform App"
