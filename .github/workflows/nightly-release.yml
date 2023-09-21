@@ -1,0 +1,61 @@
+name: Integration Release
+run-name: ${{ github.actor }} invoked publication 🚀
+on:
+  schedule:
+    - cron: '15 2 * * *' # 2:15 UTC
+
+env:
+  OCTOPUS_SPACE: "Luma Platform"
+  OCTOPUS_PROJECT: "Luma Platform App"
+  OCTOPUS_CHANNEL: "Nightly"
+
+jobs:
+  Package-Publish-Chart:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Establishing Release Number
+        run: |
+          TIME_STR=$(date +%s)
+          VER_NO="0.0.0-nightly-${TIME_STR}"
+          echo "LUMA_VERSION=$VER_NO" >> "$GITHUB_ENV"
+        shell: bash
+
+      - name: Setting up helm repository
+        env: 
+          JFROG_TOKEN: ${{ secrets.DATAGALAXY_GHA_HELM_READ }}
+        run: | 
+          echo "$JFROG_TOKEN" | helm repo add helm-virtual https://dtxlabs.jfrog.io/artifactory/api/helm/helm-virtual \
+            --username gha_helm_read --password-stdin
+
+      - name: Package Helm Chart
+        shell: bash
+        run: ./.github/scripts/helm.sh "$LUMA_VERSION"
+
+      - uses: jfrog/setup-jfrog-cli@v3
+        env: 
+          JF_URL: https://dtxlabs.jfrog.io
+          JF_ACCESS_TOKEN: ${{ secrets.DATAGALAXY_GHA_ZEBRARELEASES_READWRITE }}
+
+      - name: Publishing Helm Chart
+        shell: bash
+        run: |
+            jf rt u "zebra-sdlc-rollup-$LUMA_VERSION.tgz" zebra-releases
+
+      - name: Create a release in Octopus Deploy 🐙
+        uses: OctopusDeploy/create-release-action@v3
+        with:
+          server: ${{ secrets.OCTOPUS_SERVER }}
+          api_key: ${{ secrets.DATAGALAXY_GHA_OCTOPUS_RELEASE_TOKEN }}
+          space: ${{ env.OCTOPUS_SPACE }}
+          project: ${{ env.OCTOPUS_PROJECT }}
+          channel: ${{ env.OCTOPUS_CHANNEL }}
+          git_ref: 'refs/heads/main'
+          release_number: ${{ env.LUMA_VERSION }}
+          package_version: ${{ env.LUMA_VERSION }}
+
+      - name: Clean up helm login
+        if: always()
+        shell: bash
+        run: helm repo remove helm-virtual
