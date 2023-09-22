@@ -1,4 +1,4 @@
-name: Integration Release
+name: Nightly Release
 run-name: ${{ github.actor }} invoked publication 🚀
 on:
   schedule:
