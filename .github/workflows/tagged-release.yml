@@ -30,7 +30,7 @@ jobs:
             exit 1
           fi
           
-          echo "OCTOPUS_CHANNEL=$OCTOPUS_CHANNEL" >> "$GITHUB_ENV"
+          echo "OCTOPUS_CHANNEL=$DEPLOYMENT_CHANNEL" >> "$GITHUB_ENV"
         shell: bash
 
       - name: Setting up helm repository
