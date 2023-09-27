@@ -10,7 +10,7 @@ Create an Octopus release on the `Latest` channel for every main commit
 Create an Octopus release on the `Nightly` channel every night
 
 ### Tagged Release - tagged-release.yml
-Create an Octopus release on the `Ad-Hoc` or `Production` channels whenever the repo is tagged.  Tags that contain a pre-release suffix will go to `Ad-Hoc`.
+Create an Octopus release on the `Pre Release` or `Production` channels whenever the repo is tagged.  Tags that contain a pre-release suffix will go to `Pre Release`.
 
 
 ## soon to be retired

@@ -20,13 +20,16 @@ jobs:
         run: |
           if [[ "$TAG_NAME" =~ ^[0-9]+\.[0-9]+\.[0-9]+$ ]]; then
             DEPLOYMENT_CHANNEL='Release'
+            echo "LUMA_VERSION=$TAG_NAME" >> "$GITHUB_ENV"
           elif [[ "$TAG_NAME" =~ ^[0-9]+\.[0-9]+\.[0-9]+\-.+$ ]]; then
-            DEPLOYMENT_CHANNEL='Ad-Hoc'
+            DEPLOYMENT_CHANNEL='Pre Release'
+            AMENDED_VERSION_NUMBER="${TAG_NAME}.new"
+            echo "LUMA_VERSION=${AMENDED_VERSION_NUMBER}" >> "$GITHUB_ENV"
           else
             echo 'The tag used is not a valid release sem.ver'
             exit 1
           fi
-          echo "LUMA_VERSION=$TAG_NAME" >> "$GITHUB_ENV"
+          
           echo "OCTOPUS_CHANNEL=$OCTOPUS_CHANNEL" >> "$GITHUB_ENV"
         shell: bash
 
