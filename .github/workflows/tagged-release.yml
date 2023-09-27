@@ -18,9 +18,9 @@ jobs:
         env:
           TAG_NAME: ${{ github.ref_name }}
         run: |
-          if [[ "$VERSION_NUMBER" =~ ^[0-9]+\.[0-9]+\.[0-9]+$ ]]; then
+          if [[ "$TAG_NAME" =~ ^[0-9]+\.[0-9]+\.[0-9]+$ ]]; then
             DEPLOYMENT_CHANNEL='Release'
-          elif [[ "$VERSION_NUMBER" =~ ^[0-9]+\.[0-9]+\.[0-9]+\-.+$ ]]; then
+          elif [[ "$TAG_NAME" =~ ^[0-9]+\.[0-9]+\.[0-9]+\-.+$ ]]; then
             DEPLOYMENT_CHANNEL='Ad-Hoc'
           else
             echo 'The tag used is not a valid release sem.ver'
