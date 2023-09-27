@@ -14,7 +14,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - name: Establishing Release Channel Name
+      - name: Establishing Release Channel Name and Version
         env:
           TAG_NAME: ${{ github.ref_name }}
         run: |
@@ -28,12 +28,6 @@ jobs:
           fi
           echo "LUMA_VERSION=$TAG_NAME" >> "$GITHUB_ENV"
           echo "OCTOPUS_CHANNEL=$OCTOPUS_CHANNEL" >> "$GITHUB_ENV"
-        shell: bash
-
-      - name: Establishing Release Number
-        run: |
-          VER_NO="0.0.0-latest-${GITHUB_SHA:0:7}"
-          echo "LUMA_VERSION=$VER_NO" >> "$GITHUB_ENV"
         shell: bash
 
       - name: Setting up helm repository
