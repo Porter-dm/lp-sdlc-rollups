@@ -66,6 +66,14 @@ jobs:
           release_number: ${{ env.LUMA_VERSION }}
           package_version: ${{ env.LUMA_VERSION }}
 
+      - name: Push build info 🐙
+        uses: OctopusDeploy/push-build-information-action@v3
+        env:
+          OCTOPUS_API_KEY: ${{ secrets.DATAGALAXY_GHA_OCTOPUS_RELEASE_TOKEN }}
+        with:
+          version: ${{ env.LUMA_VERSION }}
+          packages: 'zebra-sdlc-rollup'
+
       - name: Clean up helm login
         if: always()
         shell: bash
