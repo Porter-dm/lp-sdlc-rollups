@@ -68,9 +68,10 @@ jobs:
 
       - name: Push build info 🐙
         uses: OctopusDeploy/push-build-information-action@v3
-        env:
-          OCTOPUS_API_KEY: ${{ secrets.DATAGALAXY_GHA_OCTOPUS_RELEASE_TOKEN }}
         with:
+          server: ${{ secrets.OCTOPUS_SERVER }}
+          api_key: ${{ secrets.DATAGALAXY_GHA_OCTOPUS_RELEASE_TOKEN }}
+          space: ${{ env.OCTOPUS_SPACE }}
           version: ${{ env.LUMA_VERSION }}
           packages: 'zebra-sdlc-rollup'
 
