@@ -43,7 +43,7 @@ dependencies:
   version: 0.0.1-31-1
   repository: '@helm-virtual'
 - name: datacore-svc-backend
-  version: 0.1.0-feature-lp-1927-integrate-with-dbx-manager-80
+  version: 0.1.0-feature-lp-1927-integrate-with-dbx-manager-81
   repository: '@helm-virtual'
 - name: sciplat-svc-user
   version: 0.0.6-25
@@ -64,5 +64,5 @@ dependencies:
   version: 0.0.4-165-1
   repository: '@helm-virtual'
 - name: sciplat-svc-databricks-manager
-  version: 0.1.0-156-1
+  version: 0.1.1-411-1
   repository: '@helm-virtual'
