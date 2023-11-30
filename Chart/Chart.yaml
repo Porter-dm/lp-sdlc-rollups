@@ -3,63 +3,63 @@ name: zebra-sdlc-rollup
 version: __VERSION__
 description: A fixed release of all zebra services
 maintainers:
-  - name: Andi Hyson
-    email: andi.hyson@dotmatics.com
+- name: Andi Hyson
+  email: andi.hyson@dotmatics.com
 dependencies:
-  - name: zebra-fe-store
-    version: 0.2.9-27
-    repository: '@helm-virtual'
-  - name: sciplat-fe-app-shell
-    version: 0.3.0-50-1
-    repository: '@helm-virtual'
-  - name: sciplat-fe-shell-navigation
-    version: 0.3.1-37-1
-    repository: '@helm-virtual'
-  - name: sciplat-svc-ingress-context
-    version: 0.1.0-84-2
-    repository: '@helm-virtual'
-  - name: sciplat-svc-module
-    version: 0.1.0-110-1
-    repository: '@helm-virtual'
-  - name: zebra-fe-module-system-settings
-    version: 0.3.5-88-1
-    repository: '@helm-virtual'
-  - name: zebra-keycloak
-    version: 0.1.11-198-1
-    repository: '@helm-virtual'
-  - name: zebra-openpolicyagent
-    version: 0.2.5-44-1
-    repository: '@helm-virtual'
-  - name: zebra-svc-system-settings
-    version: 0.2.0-56-1
-    repository: '@helm-virtual'
-  - name: zebra-fe-module-user-settings
-    version: 0.0.1-37-1
-    repository: '@helm-virtual'
-  - name: datacore-svc-backend
-    version: 0.2.0-48
-    repository: '@helm-virtual'
-  - name: sciplat-svc-audit
-    version: 0.1.0-42-1
-    repository: '@helm-virtual'
-  - name: zebra-svc-eln-layout
-    version: 0.2.2-13
-    repository: '@helm-virtual'
-  - name: sciplat-svc-api-key
-    version: 0.1.0-67-1
-    repository: '@helm-virtual'
-  - name: sciplat-svc-realm-manager
-    version: 0.1.0-275-1
-    repository: '@helm-virtual'
-  - name: sciplat-svc-authz
-    version: 0.1.0-300-1
-    repository: '@helm-virtual'
-  - name: sciplat-svc-databricks-manager
-    version: 0.2.0-503-2
-    repository: '@helm-virtual'
-  - name: sciplat-fe-luma-admin-shell
-    version: 0.0.2-68-1
-    repository: '@helm-virtual'
-  - name: sciplat-fe-module-luma-admin
-    version: 0.3.5-155-1
-    repository: '@helm-virtual'
+- name: zebra-fe-store
+  version: 0.2.9-27
+  repository: '@helm-virtual'
+- name: sciplat-fe-app-shell
+  version: 0.3.0-50-1
+  repository: '@helm-virtual'
+- name: sciplat-fe-shell-navigation
+  version: 0.3.1-37-1
+  repository: '@helm-virtual'
+- name: sciplat-svc-ingress-context
+  version: 0.1.0-84-2
+  repository: '@helm-virtual'
+- name: sciplat-svc-module
+  version: 0.1.0-110-1
+  repository: '@helm-virtual'
+- name: zebra-fe-module-system-settings
+  version: 0.3.5-88-1
+  repository: '@helm-virtual'
+- name: zebra-keycloak
+  version: 0.1.11-198-1
+  repository: '@helm-virtual'
+- name: zebra-openpolicyagent
+  version: 0.2.5-44-1
+  repository: '@helm-virtual'
+- name: zebra-svc-system-settings
+  version: 0.2.0-56-1
+  repository: '@helm-virtual'
+- name: zebra-fe-module-user-settings
+  version: 0.0.1-37-1
+  repository: '@helm-virtual'
+- name: datacore-svc-backend
+  version: 0.2.0-49
+  repository: '@helm-virtual'
+- name: sciplat-svc-audit
+  version: 0.1.0-42-1
+  repository: '@helm-virtual'
+- name: zebra-svc-eln-layout
+  version: 0.2.2-13
+  repository: '@helm-virtual'
+- name: sciplat-svc-api-key
+  version: 0.1.0-67-1
+  repository: '@helm-virtual'
+- name: sciplat-svc-realm-manager
+  version: 0.1.0-275-1
+  repository: '@helm-virtual'
+- name: sciplat-svc-authz
+  version: 0.1.0-300-1
+  repository: '@helm-virtual'
+- name: sciplat-svc-databricks-manager
+  version: 0.2.0-503-2
+  repository: '@helm-virtual'
+- name: sciplat-fe-luma-admin-shell
+  version: 0.0.2-68-1
+  repository: '@helm-virtual'
+- name: sciplat-fe-module-luma-admin
+  version: 0.3.5-155-1
+  repository: '@helm-virtual'
