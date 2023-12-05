@@ -13,7 +13,7 @@ dependencies:
     version: 0.3.0-50-1
     repository: '@helm-virtual'
   - name: sciplat-fe-shell-navigation
-    version: 0.3.1-39-1
+    version: 0.3.1-40-1
     repository: '@helm-virtual'
   - name: sciplat-svc-ingress-context
     version: 0.1.0-84-2
