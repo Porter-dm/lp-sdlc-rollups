@@ -54,7 +54,7 @@ jobs:
           channel: ${{ env.OCTOPUS_CHANNEL }}
           git_ref: 'refs/heads/main'
           release_number: ${{ env.LUMA_VERSION }}
-          package_version: ${{ env.LUMA_VERSION }}
+          packages: 'zebra-sdlc-rollup:${{ env.LUMA_VERSION }}'
 
       - name: Clean up helm login
         if: always()
