@@ -28,7 +28,7 @@ dependencies:
     version: 0.1.11-214-1
     repository: '@helm-virtual'
   - name: zebra-openpolicyagent
-    version: 0.2.6-53-1
+    version: 0.2.6-add-reveal-bi-server-permissions-65-1
     repository: '@helm-virtual'
   - name: zebra-svc-system-settings
     version: 0.2.0-58-1
@@ -37,7 +37,7 @@ dependencies:
     version: 0.0.1-37-1
     repository: '@helm-virtual'
   - name: datacore-svc-backend
-    version: 0.2.0-feature-bbr-2774-1
+    version: 0.2.0-feature-bbr-2774-2
     repository: '@helm-virtual'
   - name: sciplat-svc-audit
     version: 0.1.0-46-1
