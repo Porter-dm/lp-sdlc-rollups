@@ -63,7 +63,9 @@ jobs:
           channel: ${{ env.OCTOPUS_CHANNEL }}
           git_ref: 'refs/heads/main'
           release_number: ${{ env.LUMA_VERSION }}
-          packages: 'zebra-sdlc-rollup:${{ env.LUMA_VERSION }}'
+          packages: |
+            zebra-sdlc-rollup:${{ env.LUMA_VERSION }}
+            tf-stack-setup:${{ vars.OCTOPUS_TF_STACK_SETUP_VERSION }}
 
       - name: Push build info 🐙
         uses: OctopusDeploy/push-build-information-action@v3
