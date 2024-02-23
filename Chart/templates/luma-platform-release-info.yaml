@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: luma-platform-release-info
+data:
+  release.name: "{{ .Chart.Name }}"
+  release.version: "{{ .Chart.Version }}"
