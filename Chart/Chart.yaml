@@ -43,7 +43,7 @@ dependencies:
     version: 0.1.0-release-1-2-0-73-1
     repository: '@helm-virtual'
   - name: sciplat-svc-api-key
-    version: 0.1.0-release-1-1-0-79-2
+    version: 0.1.0-release-1-2-0-89-1
     repository: '@helm-virtual'
   - name: sciplat-svc-realm-manager
     version: 0.1.0-release-1-1-0-353-2
