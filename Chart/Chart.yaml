@@ -16,7 +16,7 @@ dependencies:
     version: 0.3.1-release-1-1-0-56-2
     repository: '@helm-virtual'
   - name: sciplat-svc-ingress-context
-    version: 0.1.0-release-1-1-0-125-2
+    version: 0.1.0-release-1-2-0-143-1
     repository: '@helm-virtual'
   - name: sciplat-svc-module
     version: 0.1.0-release-1-2-0-116-1
