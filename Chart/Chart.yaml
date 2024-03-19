@@ -52,7 +52,7 @@ dependencies:
     version: 0.1.2-496-2
     repository: '@helm-virtual'
   - name: sciplat-svc-databricks-manager
-    version: 0.2.1-867-1
+    version: 0.2.1-871-1
     repository: '@helm-virtual'
   - name: sciplat-fe-luma-admin-shell
     version: 0.0.2-77-1
