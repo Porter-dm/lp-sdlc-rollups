@@ -49,7 +49,7 @@ dependencies:
     version: 0.1.0-363-1
     repository: '@helm-virtual'
   - name: sciplat-svc-authz
-    version: 0.1.2-496-2
+    version: 0.1.2-502-1
     repository: '@helm-virtual'
   - name: sciplat-svc-databricks-manager
     version: 0.2.1-903-1
