@@ -60,9 +60,3 @@ dependencies:
   - name: sciplat-fe-module-luma-admin
     version: 0.3.7-351-1
     repository: '@helm-virtual'
-  - name: zebra-store
-    version: 0.2.9-175-1
-    repository: '@helm-virtual'
-  - name: user-settings-module
-    version: 0.0.1-185-1
-    repository: '@helm-virtual'
