@@ -37,7 +37,7 @@ dependencies:
     version: 0.0.1-693-1
     repository: '@helm-virtual'
   - name: datacore-svc-backend
-    version: 0.2.3-feature-lp-2570-609-1
+    version: 0.7.0-991ac684
     repository: '@helm-virtual'
   - name: sciplat-svc-audit
     version: 0.1.0-693-1
@@ -52,7 +52,7 @@ dependencies:
     version: 0.1.2-693-1
     repository: '@helm-virtual'
   - name: sciplat-svc-databricks-manager
-    version: 0.2.3-693-1
+    version: 0.2.3-feature-lp-2570-609-1
     repository: '@helm-virtual'
   - name: sciplat-fe-luma-admin-shell
     version: 0.0.2-675-1
