@@ -1,4 +1,4 @@
-apiVersion: v2
+apiVersion: v3
 name: zebra-sdlc-rollup
 version: __VERSION__
 description: A fixed release of all zebra services
@@ -37,7 +37,7 @@ dependencies:
     version: 0.0.1-693-1
     repository: '@helm-virtual'
   - name: datacore-svc-backend
-    version: 0.7.0-dbmaxconnections-e22e91ca
+    version: 0.7.0-dbmaxconnections-617427b9
     repository: '@helm-virtual'
   - name: sciplat-svc-audit
     version: 0.1.0-693-1
