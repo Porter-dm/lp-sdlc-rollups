@@ -13,7 +13,7 @@ dependencies:
     version: 0.3.0-release-2024-06-0-1066-1
     repository: '@helm-virtual'
   - name: sciplat-fe-shell-navigation
-    version: 0.3.1-release-2024-06-0-1066-1
+    version: 0.3.1-feature-lx-238-github2-1007-1
     repository: '@helm-virtual'
   - name: sciplat-svc-ingress-context
     version: 0.1.1-release-2024-06-0-1066-1
@@ -28,7 +28,7 @@ dependencies:
     version: 0.1.13-release-2024-06-0-1066-1
     repository: '@helm-virtual'
   - name: zebra-openpolicyagent
-    version: 0.2.9-release-2024-06-0-1066-1
+    version: 0.2.9-feature-lx-238-github2-964-1
     repository: '@helm-virtual'
   - name: zebra-svc-system-settings
     version: 0.2.1-release-2024-06-0-1066-1
@@ -59,4 +59,7 @@ dependencies:
     repository: '@helm-virtual'
   - name: sciplat-fe-module-luma-admin
     version: 0.3.7-release-2024-06-0-1066-1
+    repository: '@helm-virtual'
+  - name: luma-mixologist-backend
+    version: 0.8.0-feature-lx-238-github2-139-1
     repository: '@helm-virtual'
