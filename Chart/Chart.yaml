@@ -61,5 +61,5 @@ dependencies:
     version: 0.3.7-release-2024-06-0-1066-1
     repository: '@helm-virtual'
   - name: luma-mixologist-backend
-    version: 0.8.0-feature-lx-238-github2-144-1
+    version: 0.8.0-feature-lx-238-github2-154-2
     repository: '@helm-virtual'
