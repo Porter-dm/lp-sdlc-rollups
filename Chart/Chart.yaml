@@ -28,7 +28,7 @@ dependencies:
     version: 0.1.13-1209-1
     repository: '@helm-virtual'
   - name: zebra-openpolicyagent
-    version: 0.2.9-1149-1
+    version: 0.2.9-luma-registration-1267-1
     repository: '@helm-virtual'
   - name: zebra-svc-system-settings
     version: 0.2.1-1249-1
@@ -61,5 +61,5 @@ dependencies:
     version: 0.3.7-1241-1
     repository: '@helm-virtual'
   - name: luma-registration
-    version: 0.0.1-example-luma-reg-mod-fed-26-1
+    version: 0.0.1-example-luma-reg-mod-fed-27-1
     repository: '@helm-virtual'
