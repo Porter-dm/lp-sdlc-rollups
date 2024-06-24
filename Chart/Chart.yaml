@@ -61,5 +61,5 @@ dependencies:
     version: 0.3.7-1241-1
     repository: '@helm-virtual'
   - name: luma-registration
-    version: 0.0.1-example-luma-reg-mod-fed-40-2
+    version: 0.0.1-example-luma-reg-mod-fed-41-1
     repository: '@helm-virtual'
