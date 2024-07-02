@@ -7,13 +7,13 @@ maintainers:
     email: andi.hyson@dotmatics.com
 dependencies:
   - name: zebra-fe-store
-    version: 0.2.9-luma-registration-1371-1
+    version: 0.2.9-luma-registration-1405-1
     repository: '@helm-virtual'
   - name: sciplat-fe-app-shell
-    version: 0.3.0-luma-registration-1371-1
+    version: 0.3.0-luma-registration-1405-1
     repository: '@helm-virtual'
   - name: sciplat-fe-shell-navigation
-    version: 0.3.1-luma-registration-1371-1
+    version: 0.3.1-luma-registration-1405-1
     repository: '@helm-virtual'
   - name: sciplat-svc-ingress-context
     version: 0.1.1-luma-registration-1371-1
@@ -22,19 +22,19 @@ dependencies:
     version: 0.1.0-luma-registration-1371-1
     repository: '@helm-virtual'
   - name: zebra-fe-module-system-settings
-    version: 0.3.6-luma-registration-1371-1
+    version: 0.3.6-luma-registration-1405-1
     repository: '@helm-virtual'
   - name: zebra-keycloak
     version: 0.1.13-1209-1
     repository: '@helm-virtual'
   - name: zebra-openpolicyagent
-    version: 0.2.9-luma-registration-1375-1
+    version: 0.2.9-luma-registration-1405-1
     repository: '@helm-virtual'
   - name: zebra-svc-system-settings
     version: 0.2.1-luma-registration-1371-1
     repository: '@helm-virtual'
   - name: zebra-fe-module-user-settings
-    version: 0.0.1-luma-registration-1371-1
+    version: 0.0.1-luma-registration-1405-1
     repository: '@helm-virtual'
   - name: datacore-svc-backend
     version: 1.1.0-fix-reveal-save-73813244
