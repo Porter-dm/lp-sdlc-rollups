@@ -66,3 +66,6 @@ dependencies:
   - name: luma-registration
     version: 0.0.1-demo-129-1
     repository: '@helm-virtual'
+  - name: luma-fe-bioglyph-demo
+    version: 1.0.0-7-1
+    repository: '@helm-virtual'
