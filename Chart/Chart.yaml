@@ -7,22 +7,22 @@ maintainers:
     email: andi.hyson@dotmatics.com
 dependencies:
   - name: zebra-fe-store
-    version: 0.2.9-1464-1
+    version: 0.2.9-1466-1
     repository: '@helm-virtual'
   - name: sciplat-fe-app-shell
-    version: 0.3.0-1464-1
+    version: 0.3.0-1466-1
     repository: '@helm-virtual'
   - name: sciplat-fe-shell-navigation
-    version: 0.3.1-1464-1
+    version: 0.3.1-1466-1
     repository: '@helm-virtual'
   - name: sciplat-svc-ingress-context
-    version: 0.1.1-1461-1
+    version: 0.1.1-1466-1
     repository: '@helm-virtual'
   - name: sciplat-svc-module
-    version: 0.1.0-1461-1
+    version: 0.1.0-1466-1
     repository: '@helm-virtual'
   - name: zebra-fe-module-system-settings
-    version: 0.3.6-1464-1
+    version: 0.3.6-1466-1
     repository: '@helm-virtual'
   - name: zebra-keycloak
     version: 0.1.13-1209-1
@@ -31,32 +31,32 @@ dependencies:
     version: 0.2.9-1420-1
     repository: '@helm-virtual'
   - name: zebra-svc-system-settings
-    version: 0.2.1-1461-1
+    version: 0.2.1-1466-1
     repository: '@helm-virtual'
   - name: zebra-fe-module-user-settings
-    version: 0.0.1-1464-1
+    version: 0.0.1-1466-1
     repository: '@helm-virtual'
   - name: datacore-svc-backend
     version: 1.2.0-6b756e8c
     repository: '@helm-virtual'
   - name: sciplat-svc-audit
-    version: 0.1.0-1461-1
+    version: 0.1.0-1466-1
     repository: '@helm-virtual'
   - name: sciplat-svc-api-key
-    version: 0.1.0-1461-1
+    version: 0.1.0-1466-1
     repository: '@helm-virtual'
   - name: sciplat-svc-realm-manager
-    version: 0.1.2-1461-1
+    version: 0.1.2-1466-1
     repository: '@helm-virtual'
   - name: sciplat-svc-authz
-    version: 0.1.2-1461-1
+    version: 0.1.2-1466-1
     repository: '@helm-virtual'
   - name: sciplat-svc-databricks-manager
-    version: 0.2.3-1461-1
+    version: 0.2.3-1466-1
     repository: '@helm-virtual'
   - name: sciplat-fe-luma-admin-shell
-    version: 0.0.2-1446-1
+    version: 0.0.2-1466-1
     repository: '@helm-virtual'
   - name: sciplat-fe-module-luma-admin
-    version: 0.3.7-1446-1
+    version: 0.3.9-1466-1
     repository: '@helm-virtual'
