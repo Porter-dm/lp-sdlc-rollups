@@ -64,7 +64,7 @@ dependencies:
     version: 0.8.0-feature-lx-238-github2-184-2
     repository: '@helm-virtual'
   - name: luma-registration
-    version: 0.0.1-demo-174-1
+    version: 0.0.1-demo-179-1
     repository: '@helm-virtual'
   - name: luma-fe-bioglyph-demo
     version: 1.0.0-12-1
