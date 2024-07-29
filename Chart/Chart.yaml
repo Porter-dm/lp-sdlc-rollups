@@ -55,8 +55,8 @@ dependencies:
     version: 0.2.3-1652-1
     repository: '@helm-virtual'
   - name: sciplat-fe-luma-admin-shell
-    version: 0.0.2-1719-1
+    version: 0.0.2-1791-1
     repository: '@helm-virtual'
   - name: sciplat-fe-module-luma-admin
-    version: 0.3.9-1719-1
+    version: 0.3.9-1791-1
     repository: '@helm-virtual'
