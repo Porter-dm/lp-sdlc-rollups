@@ -62,6 +62,7 @@ dependencies:
     repository: '@helm-virtual'
   - name: luma-registration
     version: 0.0.1-lp-4188-293-1
+    repository: '@helm-virtual'
   - name: luma-registration-db-migrator
     version: 0.0.1-lp-4188-293-1
     repository: '@helm-virtual'
