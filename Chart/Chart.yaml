@@ -7,58 +7,58 @@ maintainers:
     email: andi.hyson@dotmatics.com
 dependencies:
   - name: zebra-fe-store
-    version: 0.2.9-1420-1
+    version: 0.2.9-1897-1
     repository: '@helm-virtual'
   - name: sciplat-fe-app-shell
-    version: 0.3.0-1420-1
+    version: 0.3.0-1897-1
     repository: '@helm-virtual'
   - name: sciplat-fe-shell-navigation
-    version: 0.3.1-1420-1
+    version: 0.3.2-1897-1
     repository: '@helm-virtual'
   - name: sciplat-svc-ingress-context
-    version: 0.1.1-luma-registration-1371-1
+    version: 0.1.1-1842-1
     repository: '@helm-virtual'
   - name: sciplat-svc-module
-    version: 0.1.0-luma-registration-1371-1
+    version: 0.1.0-1842-1
     repository: '@helm-virtual'
   - name: zebra-fe-module-system-settings
-    version: 0.3.6-1420-1
+    version: 0.3.6-1897-1
     repository: '@helm-virtual'
   - name: zebra-keycloak
-    version: 0.1.13-1209-1
+    version: 0.1.13-1842-1
     repository: '@helm-virtual'
   - name: zebra-openpolicyagent
     version: 0.2.9-1420-1
     repository: '@helm-virtual'
   - name: zebra-svc-system-settings
-    version: 0.2.1-luma-registration-1371-1
+    version: 0.2.1-1842-1
     repository: '@helm-virtual'
   - name: zebra-fe-module-user-settings
-    version: 0.0.1-1420-1
+    version: 0.0.1-1897-1
     repository: '@helm-virtual'
   - name: datacore-svc-backend
-    version: 1.2.0-entity-id-input-18a6b507
+    version: 1.3.0-215f2530
     repository: '@helm-virtual'
   - name: sciplat-svc-audit
-    version: 0.1.0-luma-registration-1371-1
+    version: 0.1.0-1842-1
     repository: '@helm-virtual'
   - name: sciplat-svc-api-key
-    version: 0.1.0-luma-registration-1371-1
+    version: 0.1.0-1842-1
     repository: '@helm-virtual'
   - name: sciplat-svc-realm-manager
-    version: 0.1.2-luma-registration-1371-1
+    version: 0.1.3-1842-1
     repository: '@helm-virtual'
   - name: sciplat-svc-authz
-    version: 0.1.2-luma-registration-1371-1
+    version: 0.1.2-1842-1
     repository: '@helm-virtual'
   - name: sciplat-svc-databricks-manager
-    version: 0.2.3-luma-registration-1371-1
+    version: 0.2.3-1842-1
     repository: '@helm-virtual'
   - name: sciplat-fe-luma-admin-shell
-    version: 0.0.2-luma-registration-1371-1
+    version: 0.0.2-1847-1
     repository: '@helm-virtual'
   - name: sciplat-fe-module-luma-admin
-    version: 0.3.7-luma-registration-1371-1
+    version: 0.3.9-1847-1
     repository: '@helm-virtual'
   - name: luma-registration
     version: 0.0.1-lp-4188-293-1
