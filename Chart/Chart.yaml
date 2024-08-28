@@ -61,5 +61,5 @@ dependencies:
     version: 0.3.9-2068-1
     repository: '@helm-virtual'
   - name: luma-registration
-    version: 0.0.1-540-1
+    version: 0.0.1-548-1
     repository: '@helm-virtual'
