@@ -37,7 +37,7 @@ dependencies:
     version: 0.0.1-2197-1
     repository: '@helm-virtual'
   - name: datacore-svc-backend
-    version: 1.4.0-29cf9513
+    version: 1.4.0-d9cf7dde
     repository: '@helm-virtual'
   - name: sciplat-svc-audit
     version: 0.1.0-2192-1
@@ -61,10 +61,10 @@ dependencies:
     version: 0.3.9-2189-1
     repository: '@helm-virtual'
   - name: luma-registration
-    version: 0.0.1-677-1
+    version: 0.0.1-lower-page-size-697-1
     repository: '@helm-virtual'
   - name: luma-mixologist-backend
-    version: 0.9.0-feature-lx-238-github2-305-1
+    version: 0.9.0-feature-lx-238-github2-647d8c81
     repository: '@helm-virtual'
   - name: luma-fe-bioglyph-demo
     version: 1.0.0-12-1
