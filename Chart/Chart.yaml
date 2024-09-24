@@ -66,3 +66,9 @@ dependencies:
   - name: luma-mixologist-backend
     version: 0.9.0-feature-lx-238-github2-323-1
     repository: '@helm-virtual'
+  - name: luma-fe-bioglyph-demo
+    version: 1.0.0-12-1
+    repository: '@helm-virtual'
+  - name: luma-fe-sequence-demo
+    version: 1.0.0-reactify-5-1
+    repository: '@helm-virtual'
