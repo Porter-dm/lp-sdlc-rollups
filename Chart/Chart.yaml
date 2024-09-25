@@ -64,7 +64,7 @@ dependencies:
     version: 0.0.1-raise-max-request-size-710-2
     repository: '@helm-virtual'
   - name: luma-mixologist-backend
-    version: 0.9.0-feature-lx-238-github2-325-1
+    version: 0.9.0-feature-lx-238-github2-326-1
     repository: '@helm-virtual'
   - name: luma-fe-bioglyph-demo
     version: 1.0.0-12-1
