@@ -7,65 +7,62 @@ maintainers:
     email: andi.hyson@dotmatics.com
 dependencies:
   - name: zebra-fe-store
-    version: 0.2.9-2035-1
+    version: 0.2.9-2388-1
     repository: '@helm-virtual'
   - name: sciplat-fe-app-shell
-    version: 0.3.0-2035-1
+    version: 0.3.0-2388-1
     repository: '@helm-virtual'
   - name: sciplat-fe-shell-navigation
-    version: 0.3.2-2035-1
+    version: 0.3.2-2388-1
     repository: '@helm-virtual'
   - name: sciplat-svc-ingress-context
-    version: 0.1.1-2043-1
+    version: 0.1.1-2399-1
     repository: '@helm-virtual'
   - name: sciplat-svc-module
-    version: 0.1.0-2043-1
+    version: 0.1.0-2399-1
     repository: '@helm-virtual'
   - name: zebra-fe-module-system-settings
-    version: 0.3.6-2035-1
+    version: 0.3.7-2388-1
     repository: '@helm-virtual'
   - name: zebra-keycloak
-    version: 0.1.13-2019-1
+    version: 0.1.13-2396-1
     repository: '@helm-virtual'
   - name: zebra-openpolicyagent
-    version: 0.2.9-2019-1
+    version: 0.3.0-2225-1
     repository: '@helm-virtual'
   - name: zebra-svc-system-settings
-    version: 0.2.1-2043-1
+    version: 0.2.1-2399-1
     repository: '@helm-virtual'
   - name: zebra-fe-module-user-settings
-    version: 0.0.1-2035-1
+    version: 0.0.1-2388-1
     repository: '@helm-virtual'
   - name: datacore-svc-backend
     version: 1.5.0-resetdatacorework-03728af4
     repository: '@helm-virtual'
   - name: sciplat-svc-audit
-    version: 0.1.0-2043-1
+    version: 0.1.0-2399-1
     repository: '@helm-virtual'
   - name: sciplat-svc-api-key
-    version: 0.1.0-2043-1
+    version: 0.1.0-2399-1
     repository: '@helm-virtual'
   - name: sciplat-svc-realm-manager
-    version: 0.1.3-2043-1
+    version: 0.1.3-2399-1
     repository: '@helm-virtual'
   - name: sciplat-svc-authz
-    version: 0.1.2-2043-1
+    version: 0.1.4-2399-1
     repository: '@helm-virtual'
   - name: sciplat-svc-databricks-manager
-    version: 0.2.3-2043-1
+    version: 0.2.3-2399-1
     repository: '@helm-virtual'
   - name: sciplat-fe-luma-admin-shell
-    version: 0.0.2-2043-1
+    version: 0.0.2-2287-1
     repository: '@helm-virtual'
   - name: sciplat-fe-module-luma-admin
-    version: 0.3.9-2043-1
+    version: 0.3.9-2287-1
     repository: '@helm-virtual'
   - name: luma-registration
     version: 0.0.1-registrationreset-740-1
     repository: '@helm-virtual'
-  - name: luma-fe-bioglyph-demo
-    version: 1.0.0-12-1
-    repository: '@helm-virtual'
-  - name: luma-fe-sequence-demo
-    version: 1.0.0-reactify-5-1
+  - name: datacore-frontend
+    version: 1.5.0-f6eb1bdf
     repository: '@helm-virtual'
