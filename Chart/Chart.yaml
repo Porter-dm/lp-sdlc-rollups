@@ -61,7 +61,7 @@ dependencies:
     version: 0.3.9-2043-1
     repository: '@helm-virtual'
   - name: luma-registration
-    version: 0.0.1-consumer-new-reln-666-1
+    version: 0.0.1-registrationreset-738-1
     repository: '@helm-virtual'
   - name: luma-fe-bioglyph-demo
     version: 1.0.0-12-1
