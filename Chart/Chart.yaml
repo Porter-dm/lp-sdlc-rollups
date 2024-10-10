@@ -64,5 +64,5 @@ dependencies:
     version: 0.0.1-766-1
     repository: '@helm-virtual'
   - name: datacore-frontend
-    version: 1.5.0-40c19bf1
+    version: 1.5.0-321053dc
     repository: '@helm-virtual'
