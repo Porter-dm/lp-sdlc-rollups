@@ -64,7 +64,7 @@ dependencies:
     version: 0.0.1-848-1
     repository: '@helm-virtual'
   - name: datacore-frontend
-    version: 1.5.0-e8cb7349
+    version: 1.5.0-5927fdcd
     repository: '@helm-virtual'
   - name: luma-fe-bioglyph-demo
     version: 1.0.0-12-1
