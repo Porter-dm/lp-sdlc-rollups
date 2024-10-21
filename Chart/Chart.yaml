@@ -60,3 +60,6 @@ dependencies:
   - name: sciplat-fe-module-luma-admin
     version: 0.3.9-release-24-10-0-2319-1
     repository: '@helm-virtual'
+  - name: datacore-frontend
+    version: 1.5.0-release-24-11-0-5927fdcd
+    repository: '@helm-virtual'
