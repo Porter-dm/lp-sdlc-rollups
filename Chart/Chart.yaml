@@ -71,6 +71,7 @@ dependencies:
     repository: '@helm-virtual'
   - name: luma-fe-sequence-demo
     version: 1.0.0-reactify-5-1
+    repository: '@helm-virtual'
   - name: luma-mixologist-backend
     version: 0.9.0-feature-lx-238-github2-366-1
     repository: '@helm-virtual'
