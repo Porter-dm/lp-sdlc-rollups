@@ -37,7 +37,7 @@ dependencies:
     version: 0.0.1-2550-2
     repository: '@helm-virtual'
   - name: datacore-svc-backend
-    version: 1.5.0-lp-4653-consume-the-user-scoped-token-depends-on-lp-4529--20f67eea
+    version: 1.6.0-lp-4653-consume-the-user-scoped-token-depends-on-lp-4529--8fac1487
     repository: '@helm-virtual'
   - name: sciplat-svc-audit
     version: 0.1.0-2523-1
