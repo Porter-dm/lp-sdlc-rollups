@@ -37,7 +37,7 @@ dependencies:
     version: 0.0.1-2698-1
     repository: '@helm-virtual'
   - name: datacore-svc-backend
-    version: 1.6.0-lp-4982-multiplexer-should-not-cache-any-tokens-6d770ba6
+    version: 1.5.0-release-to-main-123-7c77e24a
     repository: '@helm-virtual'
   - name: sciplat-svc-audit
     version: 0.1.0-2718-1
