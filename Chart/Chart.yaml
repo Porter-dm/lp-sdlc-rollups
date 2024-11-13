@@ -67,5 +67,5 @@ dependencies:
     version: 1.6.0-79390cec
     repository: '@helm-virtual'
   - name: bioglyph-fe
-    version: 0.0.1-70033e4d
+    version: 0.0.1-6924a04a
     repository: '@helm-virtual'
