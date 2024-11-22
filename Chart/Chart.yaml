@@ -19,7 +19,7 @@ dependencies:
     version: 0.1.1-2906-1
     repository: '@helm-virtual'
   - name: sciplat-svc-module
-    version: 0.1.0-2906-1
+    version: 0.1.0-2887-1
     repository: '@helm-virtual'
   - name: zebra-fe-module-system-settings
     version: 0.3.7-2875-1
