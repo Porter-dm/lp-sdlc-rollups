@@ -37,7 +37,7 @@ dependencies:
     version: 0.0.1-release-24-12-0-2908-1
     repository: '@helm-virtual'
   - name: datacore-svc-backend
-    version: 1.6.0-multiplexer-controller-health-checks-7113e3c5
+    version: 1.6.0-multiplexer-controller-health-checks-ccfb8532
     repository: '@helm-virtual'
   - name: sciplat-svc-audit
     version: 0.1.0-release-24-12-0-2908-1
