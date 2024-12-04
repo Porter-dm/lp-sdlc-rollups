@@ -13,7 +13,7 @@ dependencies:
     version: 0.3.0-release-24-11-0-2651-1
     repository: '@helm-virtual'
   - name: sciplat-fe-shell-navigation
-    version: 0.3.2-release-24-11-0-2651-1
+    version: 0.3.2-demo-24-11-0-demo-bioglyph-3025-1
     repository: '@helm-virtual'
   - name: sciplat-svc-ingress-context
     version: 0.1.1-release-24-11-0-2601-1
@@ -28,10 +28,10 @@ dependencies:
     version: 0.1.13-release-24-11-0-2601-1
     repository: '@helm-virtual'
   - name: zebra-openpolicyagent
-    version: 0.3.0-release-24-11-0-2601-1
+    version: 0.3.0-demo-24-11-0-demo-bioglyph-3025-1
     repository: '@helm-virtual'
   - name: zebra-svc-system-settings
-    version: 0.2.1-release-24-11-0-2601-1
+    version: 0.2.1-demo-24-11-0-demo-bioglyph-3025-1
     repository: '@helm-virtual'
   - name: zebra-fe-module-user-settings
     version: 0.0.1-release-24-11-0-2651-1
@@ -58,7 +58,7 @@ dependencies:
     version: 0.0.2-release-24-11-0-2601-1
     repository: '@helm-virtual'
   - name: sciplat-fe-module-luma-admin
-    version: 0.3.9-release-24-11-0-2601-1
+    version: 0.3.9-demo-24-11-0-demo-bioglyph-3025-1
     repository: '@helm-virtual'
   - name: datacore-frontend
     version: 1.5.0-release-24-11-0-3041cc64
