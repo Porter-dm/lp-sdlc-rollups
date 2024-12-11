@@ -37,7 +37,7 @@ dependencies:
     version: 0.0.1-3063-1
     repository: '@helm-virtual'
   - name: datacore-svc-backend
-    version: 1.7.0-12284693858-ca7ac46b
+    version: 1.7.0-lp-5155-scheduler-service-does-not-cleanup-resources-when-fails-due-to-error-12262629593-1043d2ba
     repository: '@helm-virtual'
   - name: sciplat-svc-audit
     version: 0.1.0-3049-1
