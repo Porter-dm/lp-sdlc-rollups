@@ -37,7 +37,7 @@ dependencies:
     version: 0.0.1-release-25-01-0-3228-1
     repository: '@helm-virtual'
   - name: datacore-svc-backend
-    version: 1.7.0-release-25-01-0-12758123276-1c08a594
+    version: 1.7.0-release-25-01-0-12766058096-f8c4a79f
     repository: '@helm-virtual'
   - name: sciplat-svc-audit
     version: 0.1.0-release-25-01-0-3228-1
