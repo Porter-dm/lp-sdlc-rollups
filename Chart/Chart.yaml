@@ -70,5 +70,5 @@ dependencies:
     version: 0.9.0-release-25-02-0-1363-1
     repository: '@helm-virtual'
   - name: bioglyph-fe
-    version: 0.0.1-release-25-02-0-fedd0998
+    version: 0.0.1-release-25-02-0-2538c697
     repository: '@helm-virtual'
