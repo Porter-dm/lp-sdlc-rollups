@@ -72,3 +72,6 @@ dependencies:
   - name: luma-mixologist-backend
     version: 0.9.0-1558-1
     repository: '@helm-virtual'
+  - name: luma-svc-if-module
+    version: 0.0.1-195-1
+    repository: '@helm-virtual'
