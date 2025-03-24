@@ -61,13 +61,13 @@ dependencies:
     version: 0.3.9-release-24-11-0-2601-1
     repository: '@helm-virtual'
   - name: luma-registration
-    version: 0.0.1-lp-5889-entity-submission-validation-2283-1
+    version: 0.0.1-lp-5889-entity-submission-validation-2285-1
     repository: '@helm-virtual'
   - name: luma-mixologist-backend
     version: 0.9.0-fix-rebuild-1588-1
     repository: '@helm-virtual'
   - name: datacore-frontend
-    version: 1.9.0-13545082214-d50aeeea
+    version: 1.10.0-task-bbr-4402-13953125200-0476f899
     repository: '@helm-virtual'
   - name: luma-fe-bioglyph-demo
     version: 1.0.0-12-1
