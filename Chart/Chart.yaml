@@ -37,7 +37,7 @@ dependencies:
     version: 0.0.1-3702-1
     repository: '@helm-virtual'
   - name: datacore-svc-backend
-    version: 1.10.0-14206145824-b01e41e3
+    version: 1.10.0-14219935725-08fcfd8a
     repository: '@helm-virtual'
   - name: sciplat-svc-audit
     version: 0.1.0-3754-1
@@ -64,7 +64,7 @@ dependencies:
     version: 0.0.1-2345-1
     repository: '@helm-virtual'
   - name: datacore-frontend
-    version: 1.10.0-14217884961-7670256b
+    version: 1.10.0-14219935725-08fcfd8a
     repository: '@helm-virtual'
   - name: bioglyph-fe
     version: 0.0.1-912e5bfb
