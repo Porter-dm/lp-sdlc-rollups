@@ -16,62 +16,62 @@ dependencies:
     version: 0.3.2-3865-1
     repository: '@helm-virtual'
   - name: sciplat-svc-ingress-context
-    version: 0.1.1-3956-1
+    version: 0.1.1-3853-1
     repository: '@helm-virtual'
   - name: sciplat-svc-module
-    version: 0.1.0-3956-1
+    version: 0.1.0-3853-1
     repository: '@helm-virtual'
   - name: zebra-fe-module-system-settings
     version: 0.3.8-3865-1
     repository: '@helm-virtual'
   - name: zebra-keycloak
-    version: 0.2.1-3919-1
+    version: 0.2.1-3839-1
     repository: '@helm-virtual'
   - name: zebra-openpolicyagent
-    version: 0.3.1-3918-1
+    version: 0.3.1-3553-1
     repository: '@helm-virtual'
   - name: zebra-svc-system-settings
-    version: 0.2.1-3956-1
+    version: 0.2.1-3853-1
     repository: '@helm-virtual'
   - name: zebra-fe-module-user-settings
     version: 0.0.1-3865-1
     repository: '@helm-virtual'
   - name: datacore-svc-backend
-    version: 1.11.0-14706196519-5927f78d
+    version: 1.11.0-lp-6081-databricks-migrations-2-14577161911-9cd9d7ed
     repository: '@helm-virtual'
   - name: sciplat-svc-audit
-    version: 0.1.0-3956-1
+    version: 0.1.0-3853-1
     repository: '@helm-virtual'
   - name: sciplat-svc-api-key
-    version: 0.1.0-3956-1
+    version: 0.1.0-3853-1
     repository: '@helm-virtual'
   - name: sciplat-svc-realm-manager
-    version: 0.1.3-3956-1
+    version: 0.1.3-3853-1
     repository: '@helm-virtual'
   - name: sciplat-svc-authz
-    version: 0.1.4-3956-1
+    version: 0.1.4-3853-1
     repository: '@helm-virtual'
   - name: sciplat-svc-databricks-manager
-    version: 0.2.5-3956-1
+    version: 0.2.5-3853-1
     repository: '@helm-virtual'
   - name: sciplat-fe-luma-admin-shell
-    version: 0.0.2-3941-1
+    version: 0.0.2-3868-1
     repository: '@helm-virtual'
   - name: sciplat-fe-module-luma-admin
-    version: 0.3.11-3941-1
+    version: 0.3.11-3868-1
     repository: '@helm-virtual'
   - name: luma-registration
-    version: 0.0.1-2581-1
+    version: 0.0.1-2526-1
     repository: '@helm-virtual'
   - name: datacore-frontend
-    version: 1.11.0-14707579279-aeb07df8
+    version: 1.11.0-14518788890-53e3ddda
     repository: '@helm-virtual'
   - name: bioglyph-fe
     version: 0.0.1-d48c96b8
     repository: '@helm-virtual'
   - name: luma-mixologist-backend
-    version: 0.9.0-2150-1
+    version: 0.9.0-2096-1
     repository: '@helm-virtual'
   - name: luma-svc-if-module
-    version: 0.0.1-326-1
+    version: 0.0.1-311-1
     repository: '@helm-virtual'
