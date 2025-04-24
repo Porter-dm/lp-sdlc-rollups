@@ -37,7 +37,7 @@ dependencies:
     version: 0.0.1-3865-1
     repository: '@helm-virtual'
   - name: datacore-svc-backend
-    version: 1.11.0-lp-6081-databricks-migrations-2-14627047799-3de7a7ed
+    version: 1.11.0-lp-6081-databricks-migrations-2-14627574850-67c36cfe
     repository: '@helm-virtual'
   - name: sciplat-svc-audit
     version: 0.1.0-3853-1
