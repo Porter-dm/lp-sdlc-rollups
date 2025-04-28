@@ -73,5 +73,5 @@ dependencies:
     version: 0.9.0-2150-1
     repository: '@helm-virtual'
   - name: luma-svc-if-module
-    version: 0.0.1-326-1
+    version: 0.0.1-327-1
     repository: '@helm-virtual'
