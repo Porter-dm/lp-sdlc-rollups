@@ -52,7 +52,7 @@ dependencies:
     version: 0.1.4-3976-1
     repository: '@helm-virtual'
   - name: sciplat-svc-databricks-manager
-    version: 0.2.5-3976-1
+    version: 0.2.5-feature-fixing-karptener-rebalance-4012-1
     repository: '@helm-virtual'
   - name: sciplat-fe-luma-admin-shell
     version: 0.0.2-3985-1
