@@ -61,7 +61,7 @@ dependencies:
     version: 0.3.11-release-25-05-0-4080-1
     repository: '@helm-virtual'
   - name: datacore-frontend
-    version: 1.10.0-release-25-04-0-14595476095-0df5b082
+    version: 1.11.0-release-25-05-0-14839029835-2f9cccdd
     repository: '@helm-virtual'
   - name: luma-registration
     version: 0.0.1-release-25-05-0-2686-1
