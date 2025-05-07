@@ -37,7 +37,7 @@ dependencies:
     version: 0.0.1-4020-1
     repository: '@helm-virtual'
   - name: datacore-svc-backend
-    version: 1.11.0-bugfix-lp-8294-create-tag-only-if-status-changes-14862574292-dbda1093
+    version: 1.12.0-lp-6279-optimize-handling-of-data-source-health-status-14864951524-3dbd48bc
     repository: '@helm-virtual'
   - name: sciplat-svc-audit
     version: 0.1.0-4069-1
