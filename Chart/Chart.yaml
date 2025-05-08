@@ -78,3 +78,9 @@ dependencies:
   - name: luma-fe-sequence-demo
     version: 1.0.0-feature-lp-8185-i-want-to-be-able-to-call-luma-apis-via-sigma-plugin-8-1
     repository: '@helm-virtual'
+  - name: luma-fe-sequence-demo-ingress
+    version: 1.0.0-feature-lp-8185-i-want-to-be-able-to-call-luma-apis-via-sigma-plugin-8-1
+    repository: '@helm-virtual'
+  - name: luma-fe-sequence-demo-service
+    version: 1.0.0-feature-lp-8185-i-want-to-be-able-to-call-luma-apis-via-sigma-plugin-8-1
+    repository: '@helm-virtual'
