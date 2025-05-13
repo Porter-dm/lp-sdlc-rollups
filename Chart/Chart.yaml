@@ -7,13 +7,13 @@ maintainers:
     email: andi.hyson@dotmatics.com
 dependencies:
   - name: zebra-fe-store
-    version: 0.2.9-4105-1
+    version: 0.2.9-4146-1
     repository: '@helm-virtual'
   - name: sciplat-fe-app-shell
-    version: 0.3.0-4105-1
+    version: 0.3.0-4146-1
     repository: '@helm-virtual'
   - name: sciplat-fe-shell-navigation
-    version: 0.3.2-4105-1
+    version: 0.3.2-4146-1
     repository: '@helm-virtual'
   - name: sciplat-svc-ingress-context
     version: 0.1.1-4143-1
@@ -22,7 +22,7 @@ dependencies:
     version: 0.1.0-4143-1
     repository: '@helm-virtual'
   - name: zebra-fe-module-system-settings
-    version: 0.3.8-4105-1
+    version: 0.3.8-4146-1
     repository: '@helm-virtual'
   - name: zebra-keycloak
     version: 0.2.1-4119-1
@@ -34,7 +34,7 @@ dependencies:
     version: 0.2.1-4143-1
     repository: '@helm-virtual'
   - name: zebra-fe-module-user-settings
-    version: 0.0.1-4105-1
+    version: 0.0.1-4146-1
     repository: '@helm-virtual'
   - name: datacore-svc-backend
     version: 1.12.0-14931736996-b3a615ad
