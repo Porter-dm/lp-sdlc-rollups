@@ -37,7 +37,7 @@ dependencies:
     version: 0.0.1-release-25-05-0-4080-1
     repository: '@helm-virtual'
   - name: datacore-svc-backend
-    version: 1.11.0-lp-8494-scheduler-healthcheck-15117301785-26e7ba47
+    version: 1.11.0-lp-8494-scheduler-healthcheck-15117704999-8b98ed3c
     repository: '@helm-virtual'
   - name: sciplat-svc-audit
     version: 0.1.0-release-25-05-0-4080-1
