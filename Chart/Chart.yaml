@@ -37,7 +37,7 @@ dependencies:
     version: 0.0.1-4105-1
     repository: '@helm-virtual'
   - name: datacore-svc-backend
-    version: 1.11.0-lp-6081-targetting-release-15145828679-4020ca76
+    version: 1.11.1-lp-6078-dbx-scripts-to-25-05-2-15287298823-92cf0e7e
     repository: '@helm-virtual'
   - name: sciplat-svc-audit
     version: 0.1.0-4105-1
