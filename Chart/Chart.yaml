@@ -37,7 +37,7 @@ dependencies:
     version: 0.0.1-4332-1
     repository: '@helm-virtual'
   - name: datacore-svc-backend
-    version: 1.12.0-15275186383-1297e3e4
+    version: 1.11.1-bugfix-lp-8542-update-sigma-connection-on-every-sync-15272864888-d04aa8e4
     repository: '@helm-virtual'
   - name: sciplat-svc-audit
     version: 0.1.0-4306-1
