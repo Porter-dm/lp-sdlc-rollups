@@ -70,7 +70,7 @@ dependencies:
     version: 0.9.0-release-25-05-0-2509-1
     repository: '@helm-virtual'
   - name: bioglyph-fe
-    version: 0.0.1-release-25-05-2-0d6fa2b9
+    version: 0.0.1-release-25-05-2-fde13d36
     repository: '@helm-virtual'
   - name: luma-svc-if-module
     version: 0.0.1-release-25-05-0-330-1
