@@ -37,7 +37,7 @@ dependencies:
     version: 0.0.1-4392-1
     repository: '@helm-virtual'
   - name: datacore-svc-backend
-    version: 11.12.0-bugfix-25-06-0-fix-ddcapi-error-500-caching-15399022751-1-65bd078f
+    version: 1.12.0-bugfix-25-06-0-fix-ddcapi-error-500-caching-15399022751-1-65bd078f
     repository: '@helm-virtual'
   - name: sciplat-svc-audit
     version: 0.1.0-4406-1
