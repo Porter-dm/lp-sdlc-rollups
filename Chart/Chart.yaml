@@ -76,5 +76,5 @@ dependencies:
     version: 0.0.1-336-1
     repository: '@helm-virtual'
   - name: luma-ops-application-resources
-    version: 0.1.0-e604294b
+    version: 0.1.0-21319a1f
     repository: '@helm-virtual'
