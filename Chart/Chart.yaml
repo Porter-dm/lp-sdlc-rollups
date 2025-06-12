@@ -37,7 +37,7 @@ dependencies:
     version: 0.0.1-4618-1
     repository: '@helm-virtual'
   - name: datacore-svc-backend
-    version: 1.13.0-lp-8634-move-schema-and-sample-to-s3-15609266626-1-49df082f
+    version: 1.13.0-anna-merge-rebase-is-driving-me-crazy-15617298334-1-49f75175
     repository: '@helm-virtual'
   - name: sciplat-svc-audit
     version: 0.1.0-4546-1
