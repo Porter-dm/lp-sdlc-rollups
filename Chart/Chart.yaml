@@ -64,7 +64,7 @@ dependencies:
     version: 0.0.1-3062-1
     repository: '@helm-virtual'
   - name: datacore-frontend
-    version: 1.14.0-15930653857-1-3cdd8c46
+    version: 1.14.0-15975598335-1-e0e91555
     repository: '@helm-virtual'
   - name: bioglyph-fe
     version: 0.0.1-684b740c
