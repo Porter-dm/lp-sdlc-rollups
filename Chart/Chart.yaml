@@ -67,7 +67,7 @@ dependencies:
     version: 1.14.0-16141542922-1-f64f36f1
     repository: '@helm-virtual'
   - name: bioglyph-fe
-    version: 0.0.1-586663bb
+    version: 0.0.1-a75c4ec0
     repository: '@helm-virtual'
   - name: luma-mixologist-backend
     version: 0.9.0-3462-1
