@@ -78,3 +78,6 @@ dependencies:
   - name: luma-ops-application-resources
     version: 0.1.0-21319a1f
     repository: '@helm-virtual'
+  - name: app-service
+    version: 1.15.0-16677981325-1-eb945605
+    repository: '@helm-virtual'
