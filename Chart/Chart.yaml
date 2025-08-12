@@ -28,7 +28,7 @@ dependencies:
     version: 0.2.1-5285-1
     repository: '@helm-virtual'
   - name: zebra-openpolicyagent
-    version: 0.3.2-5263-1
+    version: 0.3.2-5295-1
     repository: '@helm-virtual'
   - name: zebra-svc-system-settings
     version: 0.2.1-5285-1
