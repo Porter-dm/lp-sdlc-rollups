@@ -4,3 +4,7 @@ global:
   imagePullSecret: ""
   ingressHostName: ""
   ingressClassName: ""
+
+e2etest:
+  luma-platform-automation: ""
+  luma-datacore-automation: ""
