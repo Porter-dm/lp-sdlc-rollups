@@ -1,7 +1,0 @@
-apiVersion: v1
-kind: ConfigMap
-metadata:
-  name: e2e-test-info
-data:
-  luma-datacore-automation: "{{ .e2etest.luma-datacore-automation }}"
-  luma-platform-automation: "{{ .e2etest.luma-platform-automation }}"
