@@ -82,5 +82,5 @@ dependencies:
     version: 1.15.0-17042329945-1-c2ad0849
     repository: '@helm-virtual'
   - name: luma-app-observer
-    version: 0.0.1-31-1
+    version: 0.0.1-36-1
     repository: '@helm-virtual'
