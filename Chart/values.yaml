@@ -12,3 +12,4 @@ luma-agent:
     dapr:
       enabled: true
   standalond: false
+  fullnameOverride: luma-agent
