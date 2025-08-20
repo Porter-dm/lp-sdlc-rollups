@@ -84,6 +84,8 @@ dependencies:
   - name: luma-app-observer
     version: 0.0.1-36-1
     repository: '@helm-virtual'
-  - name: lumma-agent
+  - name: luma-agent
     version: 0.0.1-adjustments-for-deployment-127-1
     repository: '@helm-virtual'
+    condition: luma-agent.enabled
+    
