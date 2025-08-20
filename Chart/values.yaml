@@ -5,3 +5,10 @@ global:
   ingressHostName: ""
   ingressClassName: ""
 
+luma-agent:
+  auth:
+    mode: "internal"
+  backend:
+    dapr:
+      enabled: true
+  standalond: false
