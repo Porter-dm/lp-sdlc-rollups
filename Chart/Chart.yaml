@@ -1,4 +1,3 @@
-qdd
 apiVersion: v2
 name: zebra-sdlc-rollup
 version: __VERSION__
