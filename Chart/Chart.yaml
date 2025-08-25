@@ -37,7 +37,7 @@ dependencies:
     version: 0.0.1-5371-1
     repository: '@helm-virtual'
   - name: datacore-svc-backend
-    version: 1.15.0-17211141996-1-952fb0ed
+    version: 1.15.0-feature-lp-9909-fe-waiting-ux-in-collapsible-state-remove-margin-and-padding-for-experience-only-17155073207-1-0bbbf1cf
     repository: '@helm-virtual'
   - name: sciplat-svc-audit
     version: 0.1.0-5364-1
