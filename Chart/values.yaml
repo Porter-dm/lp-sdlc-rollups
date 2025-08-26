@@ -4,6 +4,7 @@ global:
   ingressHostName: ''
   ingressClassName: ''
 luma-agent:
+  enabled: false,
   auth:
     mode: internal
   backend:
