@@ -11,5 +11,5 @@ luma-agent:
   backend:
     dapr:
       enabled: true
-  standalond: false
+  standalone: false
   fullnameOverride: luma-agent
