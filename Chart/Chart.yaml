@@ -64,7 +64,7 @@ dependencies:
     version: 1.15.0-release-25-09-0-17492028599-1-d67b9b80
     repository: '@helm-virtual'
   - name: luma-registration
-    version: 0.0.1-release-25-09-0-3798-1
+    version: 0.0.1-release-25-09-0-3799-1
     repository: '@helm-virtual'
   - name: luma-mixologist-backend
     version: 0.9.0-release-25-08-0-3767-1
