@@ -12,5 +12,7 @@ luma-agent:
       enabled: true
   standalone: false
   fullnameOverride: luma-agent
+app-service:
+  enabled: false
 e2etest:
   luma-datacore-automation: 1.15.0-release-25-09-0-17584065947-1-2e797c3e

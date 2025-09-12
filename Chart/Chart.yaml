@@ -85,3 +85,7 @@ dependencies:
     version: 0.0.1-release-25-09-0-200-1
     repository: '@helm-virtual'
     condition: luma-agent.enabled
+  - name: app-service
+    version: 1.16.0-17553292875-1-1b47c01d
+    repository: '@helm-virtual'
+    condition: app-service.enabled
