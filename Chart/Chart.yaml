@@ -16,10 +16,10 @@ dependencies:
     version: 0.3.2-5690-1
     repository: '@helm-virtual'
   - name: sciplat-svc-ingress-context
-    version: 0.1.1-5694-1
+    version: 0.1.1-5696-1
     repository: '@helm-virtual'
   - name: sciplat-svc-module
-    version: 0.1.0-5694-1
+    version: 0.1.0-5696-1
     repository: '@helm-virtual'
   - name: zebra-fe-module-system-settings
     version: 0.3.9-5690-1
@@ -31,7 +31,7 @@ dependencies:
     version: 0.3.2-5295-1
     repository: '@helm-virtual'
   - name: zebra-svc-system-settings
-    version: 0.2.1-5694-1
+    version: 0.2.1-5696-1
     repository: '@helm-virtual'
   - name: zebra-fe-module-user-settings
     version: 0.0.1-5690-1
@@ -40,19 +40,19 @@ dependencies:
     version: 1.16.0-17734970531-1-cb798707
     repository: '@helm-virtual'
   - name: sciplat-svc-audit
-    version: 0.1.0-5694-1
+    version: 0.1.0-5696-1
     repository: '@helm-virtual'
   - name: sciplat-svc-api-key
-    version: 0.1.0-5694-1
+    version: 0.1.0-5696-1
     repository: '@helm-virtual'
   - name: sciplat-svc-realm-manager
-    version: 0.1.4-5694-1
+    version: 0.1.4-5696-1
     repository: '@helm-virtual'
   - name: sciplat-svc-authz
-    version: 0.1.4-5694-1
+    version: 0.1.4-5696-1
     repository: '@helm-virtual'
   - name: sciplat-svc-databricks-manager
-    version: 0.2.6-5694-1
+    version: 0.2.6-5696-1
     repository: '@helm-virtual'
   - name: sciplat-fe-luma-admin-shell
     version: 0.0.2-5661-1
