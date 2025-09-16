@@ -37,7 +37,7 @@ dependencies:
     version: 0.0.1-5690-1
     repository: '@helm-virtual'
   - name: datacore-svc-backend
-    version: 1.16.0-17760167943-1-cb798707
+    version: 1.16.0-lp-10131-commands-hanging-after-committing-17770975941-1-e924bd88
     repository: '@helm-virtual'
   - name: sciplat-svc-audit
     version: 0.1.0-5696-1
