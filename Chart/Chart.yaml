@@ -79,7 +79,7 @@ dependencies:
     version: 0.1.0-21319a1f
     repository: '@helm-virtual'
   - name: app-service
-    version: 1.16.0-17766829194-1-6bf4ef35
+    version: 1.16.0-17798432402-1-c4c1020b
     repository: '@helm-virtual'
     condition: app-service.enabled
   - name: luma-app-observer
