@@ -89,3 +89,6 @@ dependencies:
     version: 0.0.2-214-1
     repository: '@helm-virtual'
     condition: luma-agent.enabled
+  - name: luma-ontology
+    version: 0.0.1-24-1
+    repository: '@helm-virtual'
