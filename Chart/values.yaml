@@ -17,5 +17,5 @@ luma-agent:
   fullnameOverride: luma-agent
 app-service:
   enabled: false
-luma-agent:
+luma-ontology:
   enabled: false
