@@ -92,3 +92,4 @@ dependencies:
   - name: luma-ontology
     version: 0.0.1-41-1
     repository: '@helm-virtual'
+    condition: luma-ontology.enabled

@@ -15,5 +15,7 @@ luma-agent:
       enabled: true
   standalone: false
   fullnameOverride: luma-agent
-  app-service:
-    enabled: false
+app-service:
+  enabled: false
+luma-agent:
+  enabled: false
