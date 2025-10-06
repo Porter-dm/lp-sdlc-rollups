@@ -37,7 +37,7 @@ dependencies:
     version: 0.0.1-5859-1
     repository: '@helm-virtual'
   - name: datacore-svc-backend
-    version: 1.17.0-bugfix-lp-10595-imported-app-audit-events-should-use-the-new-app-name-18283800191-1-f7491412
+    version: 1.17.0-bugfix-lp-10584-missing-audit-logs-when-resetting-an-app-18282538576-1-cdd219dc
     repository: '@helm-virtual'
   - name: sciplat-svc-audit
     version: 0.1.0-5875-1
