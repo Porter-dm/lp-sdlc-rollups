@@ -37,7 +37,7 @@ dependencies:
     version: 0.0.1-5859-1
     repository: '@helm-virtual'
   - name: datacore-svc-backend
-    version: 1.17.0-bugfix-lp-10584-missing-audit-logs-when-resetting-an-app-18282538576-1-cdd219dc
+    version: 1.17.0-lp-10552-dashboard-18293622499-1-a148279a
     repository: '@helm-virtual'
   - name: sciplat-svc-audit
     version: 0.1.0-5875-1
