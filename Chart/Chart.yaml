@@ -37,7 +37,7 @@ dependencies:
     version: 0.0.1-release-25-10-1-5964-1
     repository: '@helm-virtual'
   - name: datacore-svc-backend
-    version: 1.16.0-release-25-10-0-18094884130-1-4ae077ad
+    version: 1.16.0-feature-lp-10754-18356482520-1-664e7f46
     repository: '@helm-virtual'
   - name: sciplat-svc-audit
     version: 0.1.0-release-25-10-1-5964-1
@@ -55,10 +55,10 @@ dependencies:
     version: 0.2.6-release-25-10-1-5964-1
     repository: '@helm-virtual'
   - name: sciplat-fe-luma-admin-shell
-    version: 0.0.2-release-25-10-1-5964-1
+    version: 0.0.2-feature-lp-10754-5971-1
     repository: '@helm-virtual'
   - name: sciplat-fe-module-luma-admin
-    version: 0.3.11-release-25-10-1-5964-1
+    version: 0.3.11-feature-lp-10754-5971-1
     repository: '@helm-virtual'
   - name: datacore-frontend
     version: 1.16.0-release-25-10-0-17916668849-1-67174428
