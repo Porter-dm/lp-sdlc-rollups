@@ -37,7 +37,7 @@ dependencies:
     version: 0.0.1-5884-1
     repository: '@helm-virtual'
   - name: datacore-svc-backend
-    version: 1.17.0-lp-10763-commit-causing-extra-load-on-the-database-and-gets-stuck-18383826563-1-4471e114
+    version: 1.17.0-lp-10565-retry-tantrums-18097996372-1-ab1f7ea5
     repository: '@helm-virtual'
   - name: sciplat-svc-audit
     version: 0.1.0-5949-1
