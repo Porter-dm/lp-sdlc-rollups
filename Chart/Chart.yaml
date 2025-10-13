@@ -37,7 +37,7 @@ dependencies:
     version: 0.0.1-5993-1
     repository: '@helm-virtual'
   - name: datacore-svc-backend
-    version: 1.17.0-18414254480-1-28357d91
+    version: 1.17.0-18465846205-1-1ae4e066
     repository: '@helm-virtual'
   - name: sciplat-svc-audit
     version: 0.1.0-5999-1
@@ -64,7 +64,7 @@ dependencies:
     version: 0.0.1-4139-1
     repository: '@helm-virtual'
   - name: datacore-frontend
-    version: 1.17.0-18465005684-1-6ef27e93
+    version: 1.17.0-18465846205-1-1ae4e066
     repository: '@helm-virtual'
   - name: bioglyph-fe
     version: 0.0.1-5b5b44f7
@@ -79,7 +79,7 @@ dependencies:
     version: 0.1.0-482b512d
     repository: '@helm-virtual'
   - name: app-service
-    version: 1.17.0-18317550756-1-c65fd3cd
+    version: 1.17.0-18465846205-1-1ae4e066
     repository: '@helm-virtual'
     condition: app-service.enabled
   - name: luma-app-observer
