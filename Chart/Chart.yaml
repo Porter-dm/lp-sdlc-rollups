@@ -93,3 +93,6 @@ dependencies:
     version: 0.0.1-93-1
     repository: '@helm-virtual'
     condition: luma-ontology.enabled
+  - name: luma-app-library
+    version: 1.0.0-44-1
+    repository: '@helm-virtual'
