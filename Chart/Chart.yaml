@@ -73,7 +73,7 @@ dependencies:
     version: 0.0.1-release-25-10-0-3c463f1d
     repository: '@helm-virtual'
   - name: luma-svc-if-module
-    version: 0.0.1-release-25-10-0-582-1
+    version: 0.0.1-release-25-11-0-693-1
     repository: '@helm-virtual'
   - name: luma-ops-application-resources
     version: 0.1.0-release-25-10-0-482b512d
