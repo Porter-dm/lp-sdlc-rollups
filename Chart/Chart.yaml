@@ -37,7 +37,7 @@ dependencies:
     version: 0.0.1-6188-1
     repository: '@helm-virtual'
   - name: datacore-svc-backend
-    version: 1.17.0-feature-remove-restrict-experiences-access-to-app-admin-feature-flag-18910759789-1-219e1fb0
+    version: 1.17.0-feature-lp-10516-copy-experience-18913917958-1-adfc648d
     repository: '@helm-virtual'
   - name: sciplat-svc-audit
     version: 0.1.0-6189-1
