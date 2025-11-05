@@ -64,7 +64,7 @@ dependencies:
     version: 0.0.1-4420-1
     repository: '@helm-virtual'
   - name: datacore-frontend
-    version: 1.17.0-feature-remove-restrict-experiences-access-to-app-admin-feature-flag-19072681404-1-4b33b94f
+    version: 1.17.0-lp-10787-aaaa-i-want-to-navigate-to-data-functions-ud-fs-in-luma-design-19042309494-1-c3c397b8
     repository: '@helm-virtual'
   - name: bioglyph-fe
     version: 0.0.1-f5aceb09
