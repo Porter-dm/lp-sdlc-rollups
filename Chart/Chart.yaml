@@ -37,7 +37,7 @@ dependencies:
     version: 0.0.1-6244-1
     repository: '@helm-virtual'
   - name: datacore-svc-backend
-    version: 1.17.0-19105268002-1-2aa3cb23
+    version: 1.17.0-lp-10787-aaaa-i-want-to-navigate-to-data-functions-ud-fs-in-luma-design-19133566291-1-f0db3180
     repository: '@helm-virtual'
   - name: sciplat-svc-audit
     version: 0.1.0-6250-1
@@ -64,7 +64,7 @@ dependencies:
     version: 0.0.1-4420-1
     repository: '@helm-virtual'
   - name: datacore-frontend
-    version: 1.17.0-19099740071-1-93cd8b94
+    version: 1.17.0-lp-10787-aaaa-i-want-to-navigate-to-data-functions-ud-fs-in-luma-design-19133566291-1-f0db3180
     repository: '@helm-virtual'
   - name: bioglyph-fe
     version: 0.0.1-f5aceb09
