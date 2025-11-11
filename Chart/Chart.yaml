@@ -79,7 +79,7 @@ dependencies:
     version: 0.2.0-d180896d
     repository: '@helm-virtual'
   - name: app-service
-    version: 1.17.0-19244585926-1-6ce60d74
+    version: 1.17.0-19270056038-1-55ee7fbe
     repository: '@helm-virtual'
     condition: app-service.enabled
   - name: luma-app-observer
@@ -97,5 +97,5 @@ dependencies:
     version: 1.0.0-56-1
     repository: '@helm-virtual'
   - name: datacore-gateway
-    version: 1.17.0-19245962329-1-bd885a6f
+    version: 1.17.0-19270056038-1-55ee7fbe
     repository: '@helm-virtual'
