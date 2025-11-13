@@ -10,55 +10,55 @@ dependencies:
     version: 0.2.9-6287-1
     repository: '@helm-virtual'
   - name: sciplat-fe-app-shell
-    version: 0.3.0-6417-1
+    version: 0.3.0-6418-1
     repository: '@helm-virtual'
   - name: sciplat-fe-shell-navigation
-    version: 0.3.2-6417-1
+    version: 0.3.2-6418-1
     repository: '@helm-virtual'
   - name: sciplat-svc-ingress-context
-    version: 0.1.1-6400-1
+    version: 0.1.1-6418-1
     repository: '@helm-virtual'
   - name: sciplat-svc-module
-    version: 0.1.0-6400-1
+    version: 0.1.0-6418-1
     repository: '@helm-virtual'
   - name: zebra-fe-module-system-settings
-    version: 0.4.0-6417-1
+    version: 0.4.0-6418-1
     repository: '@helm-virtual'
   - name: zebra-keycloak
-    version: 0.2.1-6417-1
+    version: 0.2.1-6418-1
     repository: '@helm-virtual'
   - name: zebra-openpolicyagent
-    version: 0.3.2-6417-1
+    version: 0.3.2-6418-1
     repository: '@helm-virtual'
   - name: zebra-svc-system-settings
-    version: 0.2.1-6400-1
+    version: 0.2.1-6418-1
     repository: '@helm-virtual'
   - name: zebra-fe-module-user-settings
-    version: 0.0.1-6417-1
+    version: 0.0.1-6418-1
     repository: '@helm-virtual'
   - name: datacore-svc-backend
     version: 1.17.0-19307978422-1-4ba8911a
     repository: '@helm-virtual'
   - name: sciplat-svc-audit
-    version: 0.1.0-6400-1
+    version: 0.1.0-6418-1
     repository: '@helm-virtual'
   - name: sciplat-svc-api-key
-    version: 0.1.0-6400-1
+    version: 0.1.0-6418-1
     repository: '@helm-virtual'
   - name: sciplat-svc-realm-manager
-    version: 0.1.5-6400-1
+    version: 0.1.5-6418-1
     repository: '@helm-virtual'
   - name: sciplat-svc-authz
-    version: 0.2.0-6400-1
+    version: 0.2.0-6418-1
     repository: '@helm-virtual'
   - name: sciplat-svc-databricks-manager
-    version: 0.3.0-6400-1
+    version: 0.3.0-6418-1
     repository: '@helm-virtual'
   - name: sciplat-fe-luma-admin-shell
-    version: 0.0.2-6417-1
+    version: 0.0.2-6418-1
     repository: '@helm-virtual'
   - name: sciplat-fe-module-luma-admin
-    version: 0.3.12-6417-1
+    version: 0.3.12-6418-1
     repository: '@helm-virtual'
   - name: luma-registration
     version: 0.0.1-4426-1
