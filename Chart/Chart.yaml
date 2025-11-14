@@ -37,7 +37,7 @@ dependencies:
     version: 0.0.1-6453-1
     repository: '@helm-virtual'
   - name: datacore-svc-backend
-    version: 1.17.0-19367789705-1-9e2a96fe
+    version: 1.17.0-lp-11193-failed-adhocflow-stays-a-requested-19370390908-1-3e6e74dc
     repository: '@helm-virtual'
   - name: sciplat-svc-audit
     version: 0.1.0-6453-1
