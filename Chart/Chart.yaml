@@ -94,7 +94,7 @@ dependencies:
     repository: '@helm-virtual'
     condition: luma-ontology.enabled
   - name: luma-app-library
-    version: 1.0.1-76-1
+    version: 1.0.2-78-1
     repository: '@helm-virtual'
   - name: datacore-gateway
     version: 1.17.0-19540971743-1-020babd3
