@@ -37,7 +37,7 @@ dependencies:
     version: 0.0.1-6601-1
     repository: '@helm-virtual'
   - name: datacore-svc-backend
-    version: 1.17.0-19563220921-1-08313ebf
+    version: 1.17.0-19571580905-1-66b2029a
     repository: '@helm-virtual'
   - name: sciplat-svc-audit
     version: 0.1.0-6601-1
@@ -79,7 +79,7 @@ dependencies:
     version: 0.2.0-6f9f9e55
     repository: '@helm-virtual'
   - name: app-service
-    version: 1.17.0-19563220921-1-08313ebf
+    version: 1.17.0-19571580905-1-66b2029a
     repository: '@helm-virtual'
     condition: app-service.enabled
   - name: luma-app-observer
@@ -97,5 +97,5 @@ dependencies:
     version: 1.0.2-78-1
     repository: '@helm-virtual'
   - name: datacore-gateway
-    version: 1.17.0-19563220921-1-08313ebf
+    version: 1.17.0-19571580905-1-66b2029a
     repository: '@helm-virtual'
