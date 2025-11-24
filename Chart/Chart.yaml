@@ -97,5 +97,5 @@ dependencies:
     version: 1.0.2-78-1
     repository: '@helm-virtual'
   - name: datacore-gateway
-    version: 1.17.0-19639325606-1-5bd51d3e
+    version: 1.17.0-19642237848-1-817dac33
     repository: '@helm-virtual'
