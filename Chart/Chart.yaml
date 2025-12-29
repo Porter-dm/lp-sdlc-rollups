@@ -70,7 +70,7 @@ dependencies:
     version: 0.0.1-dfb7746f
     repository: '@helm-virtual'
   - name: luma-mixologist-backend
-    version: 0.9.0-6100-1
+    version: 0.9.0-6103-1
     repository: '@helm-virtual'
   - name: luma-svc-if-module
     version: 0.0.1-907-1
