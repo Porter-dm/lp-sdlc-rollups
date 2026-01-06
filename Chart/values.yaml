@@ -4,7 +4,7 @@ global:
   ingressHostName: ''
   ingressClassName: ''
 e2etest:
-  luma-datacore-automation: 1.17.1-20745524739-1-e944044f
+  luma-datacore-automation: 1.17.1-20747690709-1-4451d7c3
   luma-platform-automation: 1.0.7281
 luma-agent:
   enabled: false
