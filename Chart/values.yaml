@@ -16,4 +16,4 @@ app-service:
   enabled: false
 e2etest:
   luma-datacore-automation: 1.17.0-release-25-12-0-19565819740-1-a0d3e925
-  luma-platform-automation: 1.0.6873-release-25-12-0
+  luma-platform-automation: 1.0.7383-release-26-01-0
