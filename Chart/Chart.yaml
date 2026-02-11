@@ -10,7 +10,7 @@ dependencies:
     version: 0.2.9-release-26-01-0-7429-1
     repository: '@helm-virtual'
   - name: sciplat-fe-app-shell
-    version: 0.3.0-release-26-01-0-7429-1
+    version: 0.4.0-release-26-01-0-7429-1
     repository: '@helm-virtual'
   - name: sciplat-fe-shell-navigation
     version: 0.3.2-release-26-01-0-7429-1
