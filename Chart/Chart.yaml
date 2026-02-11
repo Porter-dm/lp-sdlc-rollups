@@ -7,7 +7,7 @@ maintainers:
     email: andi.hyson@dotmatics.com
 dependencies:
   - name: zebra-fe-store
-    version: 0.5.9-release-26-01-0-7429-1
+    version: 0.6.9-release-26-01-0-7429-1
     repository: '@helm-virtual'
   - name: sciplat-fe-app-shell
     version: 0.4.0-release-26-01-0-7429-1
